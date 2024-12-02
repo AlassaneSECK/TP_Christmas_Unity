@@ -10,7 +10,7 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * Time.deltaTime * 10.0f;
+        transform.position += transform.forward * Time.deltaTime * 5.0f;
         if (Input.GetButton("Fire1"))
         transform.position += transform.forward * Time.deltaTime * 40.0f;
 
